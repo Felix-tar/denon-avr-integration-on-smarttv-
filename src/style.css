@@ -1,0 +1,26 @@
+/* Cobalt-compatible layout: no flexbox/grid dependency. */
+#flex-denon {position:absolute;left:3rem;top:2rem;width:58rem;height:32rem;background-color:rgba(12,17,25,0.98);color:#edf3f8;z-index:99999;font-size:0.85rem;}
+#flex-denon .dn-head {position:absolute;left:2rem;top:1.2rem;right:2rem;height:3.4rem;border-bottom:0.05rem solid #344250;}
+#flex-denon .dn-brand {font-size:1.7rem;font-weight:bold;letter-spacing:0.2rem;}
+#flex-denon .dn-sub {position:absolute;left:12rem;top:0.7rem;font-size:0.7rem;color:#b7c6d4;}
+#flex-denon .dn-nav {position:absolute;left:1.5rem;top:6rem;width:14rem;}
+#flex-denon .dn-tab {padding:0.65rem;margin-bottom:0.45rem;color:#b7c6d4;}
+#flex-denon .selected {color:#71e4d0;background-color:#202e3b;}
+#flex-denon .focus {color:#061b20;background-color:#71e4d0;}
+#flex-denon .dn-content {position:absolute;left:17rem;top:5.5rem;width:39rem;}
+#flex-denon .dn-title {font-size:1.2rem;margin-bottom:1rem;}
+#flex-denon .dn-row {position:relative;height:2.1rem;line-height:2.1rem;padding:0 0.6rem;margin-bottom:0.35rem;background-color:#1d2936;}
+#flex-denon .dn-row.focus {background-color:#71e4d0;}
+#flex-denon .dn-value {position:absolute;right:0.6rem;max-width:24rem;font-size:0.7rem;}
+#flex-denon .disabled {color:#8494a2;}
+#flex-denon .dn-notice {position:absolute;left:2rem;bottom:3.4rem;right:2rem;font-size:0.75rem;color:#c9d4df;}
+#flex-denon .dn-foot {position:absolute;left:2rem;bottom:1.4rem;font-size:0.7rem;color:#9aabba;}
+/* Konsolen row above the home tiles (flex.js openDenonGroup, 17.11.2026); px like #flex-tile-menu (1920x1080). */
+#flex-denon-group {position:absolute;top:552px;height:290px;z-index:1450;overflow:hidden;border-radius:16px;background-color:rgba(22,22,34,0.96);border:2px solid #7aa2f7;color:#e8ecff;}
+#flex-denon-group .dg-title {position:absolute;left:28px;top:14px;height:44px;font-size:30px;line-height:44px;white-space:nowrap;color:#e8ecff;}
+#flex-denon-group .dg-tile {position:absolute;top:70px;width:240px;height:150px;border-radius:12px;color:#c0caf5;background-color:rgba(36,40,59,0.9);}
+#flex-denon-group .dg-tile.focus {color:#16161e;background-color:#7aa2f7;}
+#flex-denon-group .dg-name {position:absolute;left:8px;right:8px;top:34px;height:50px;font-size:38px;line-height:50px;text-align:center;white-space:nowrap;overflow:hidden;}
+#flex-denon-group .dg-state {position:absolute;left:8px;right:8px;top:92px;height:30px;font-size:22px;line-height:30px;text-align:center;white-space:nowrap;overflow:hidden;color:#7f8bb3;}
+#flex-denon-group .dg-tile.focus .dg-state {color:#16161e;}
+#flex-denon-group .dg-hint {position:absolute;left:28px;top:238px;height:28px;font-size:20px;line-height:28px;white-space:nowrap;color:#7f8bb3;}
